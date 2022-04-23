@@ -15,9 +15,15 @@ const initialState: InitialState = {
   // loadAccount: () => {},
 };
 
+// Hack with any type :) please don't use in prod.
+interface ContractWithMint extends Contract {
+  nft_mint?: any;
+  nft_tokens_for_owner?: any;
+}
+
 type InitialState = {
   wallet: WalletConnection | null;
-  contract: Contract | null;
+  contract: ContractWithMint | null;
   currentAccount?: any;
   signIn: any;
   signOut: any;
@@ -56,7 +62,7 @@ const NearWalletProvider: FC<Props> = ({ config, children }) => {
           wallet.account(),
           config.contractName,
           {
-            viewMethods: [],
+            viewMethods: ["nft_tokens_for_owner"],
             changeMethods: ["nft_mint"],
           }
         );

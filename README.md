@@ -9,7 +9,57 @@ Step 1.
 Deploy an NFT smart contract on the testnet. Mint an NFT.
 
 Step 2.
-Build a frontend to connect with the NFT smart contract you deployed (GitHub pages is the most simple option). The frontend should allow a user to log in with NEAR and mint an NFT to their own wallet. 
+Build a frontend to connect with the NFT smart contract you deployed (GitHub pages is the most simple option). The frontend should allow a user to log in with NEAR and mint an NFT to their own wallet.
+
+## Usage
+
+- **contract** - NFT Contract.
+- **frontend** - Frontend code (mint NFTs)
+
+### contract.
+
+```
+make build
+```
+
+Deploy a contract.
+
+```
+make deploy
+```
+
+Initial NFT default metadata
+
+```
+make nft-init
+```
+
+Mint with NEAR CLI
+
+```
+make nft-mint
+```
+
+### Frontend
+
+```
+cd frontend
+```
+
+Using `npm` or `yarn`
+
+Start with dev server.
+
+```
+yarn dev
+```
+
+Start production server
+
+```
+yarn build
+yarn start
+```
 
 ## References
 
