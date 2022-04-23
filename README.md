@@ -3,6 +3,8 @@ NEAR Spring Hackathong Week #2
 
 DEMO - https://nearspring-challenge3-nft.vercel.app/
 
+![Screenshot](screenshot.png)
+
 ---
 
 Challenge #3 - https://discord.com/channels/490367152054992913/963097203050709032/965635603188305920
