@@ -65,10 +65,10 @@ const Home: NextPage = () => {
   return (
     <div className="container is-max-desktop mt-4">
       <Head>
-        <title>NEARSpring Hackathon - Submission Week #2</title>
+        <title>NEARSpring Hackathon - Challenge #3</title>
         <meta
           name="description"
-          content="NEARSpring Hackathon - Submission Week #2"
+          content="NEARSpring Hackathon Challenge #3 - Submission"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
