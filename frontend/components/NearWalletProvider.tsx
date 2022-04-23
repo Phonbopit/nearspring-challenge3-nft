@@ -15,9 +15,13 @@ const initialState: InitialState = {
   // loadAccount: () => {},
 };
 
+interface ContractWithMint extends Contract {
+  nft_mint?: any;
+}
+
 type InitialState = {
   wallet: WalletConnection | null;
-  contract: Contract | null;
+  contract: ContractWithMint | null;
   currentAccount?: any;
   signIn: any;
   signOut: any;

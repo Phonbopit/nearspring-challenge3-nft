@@ -52,10 +52,15 @@ const Home: NextPage = () => {
             Hello! We are going to mint an NFT and have it appear in your
             wallet!
             <strong>Sign in</strong>, mint your nft and head over to{" "}
-            <a href="https://wallet.testnet.near.org" target="_blank">
-              wallet.testnet.near.org
+            <a
+              href="https://wallet.testnet.near.org"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              {`wallet.testnet.near.org`}
             </a>{" "}
-            to see your new <span className="is-underlined">"CHAINFT"!</span>
+            to see your new{" "}
+            <span className="is-underlined">{`"CHAINFT"!`}</span>
           </p>
         </section>
 
