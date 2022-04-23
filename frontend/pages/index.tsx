@@ -76,7 +76,8 @@ const Home: NextPage = () => {
       <main className="main">
         <section className="section hero mt-4">
           <h1 className="mt-4 title is-size-1 has-text-centered is-uppercase has-text-weight-bold">
-            NEAR SPRING #3
+            NEAR SPRING #3{" "}
+            <span className="tag is-danger is-light">Testnet</span>
           </h1>
 
           <p className="is-size-4">

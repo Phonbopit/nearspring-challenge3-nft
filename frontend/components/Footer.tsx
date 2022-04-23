@@ -16,7 +16,14 @@ const Footer: React.FC = () => {
           </a>
         </p>
         <p>
-          NEARSpring Challenge #3. NFT + frontend
+          <a
+            href="https://nearspring.splashthat.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="has-text-black"
+          >
+            NEARSpring Challenge #3. NFT + frontend
+          </a>
           {` | `}
           <a
             className="has-text-link"
