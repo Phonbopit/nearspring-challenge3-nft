@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
+* {
+  font-family: 'Fredoka One';
+}
+
+button {
+  font-family: 'Fredoka One';
+}
 
 .main {
-  margin-top: 6em;
+  margin-top: 3em;
 }
